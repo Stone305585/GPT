@@ -32,4 +32,15 @@ public interface IWifiManager {
      * @return true or false
      */
     boolean setWifiEnabled(String pkg, boolean enabled);
+    
+    /**
+     * setWifiEnabled
+     * 兼容特殊机型
+     *
+     * @param enabled 是否可用
+     * @return true or false
+     */
+    boolean setWifiEnabled(boolean enabled);
+    
+
 }
